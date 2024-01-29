@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+/********************* BODY CSS ************/
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+/***************** Navigation Bar CSS / App.js********/
+.navbar {
+  list-style: none;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  border-radius: 6px;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}  .navbar li {
+  float: left;
+}
+
+.navbar img {
+  display: block;
+  
+  width:80px; 
+  height: auto; 
+}
+
+/**************************** Navigation Bar CSS End ********/
+
+/* ***************************BODY ABOUT CSS / About.js ************/
+
+.body-about {
+ 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.user-item {
+  margin-bottom: 20px;
+  padding: 45px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-item img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.user-info {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.toggle-button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #555;
+}
+/* ****************************BODY ABOUT CSS End ***********************/
+
+/* ****************************BODY CONTACT CSS / Contcat.js ************/
+
+.body-contact {
+  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(14, 13, 13, 0.1);
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* ****************************BODY CONTACT CSS End ***************/
+
+/***************************** BODY HOME CSS / Body.js ************/
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  text-decoration: solid;
+  
+}
+.header li {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+ 
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.hero {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.features {
+  padding: 40px 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.cta {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #fff;
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; 
+}
+
+
+.project {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.project h3 {
+  color: #333;
+}
+
+.project p {
+  color: #666;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom:50px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.portfolio-content {
+  margin-top: 10px;
+}
+
+/***************************** Fotter Css **************/
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f8f8f8;
+  font-size: small;
+}
+
+.social-icons {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.github-icon:hover {
+  background-color: #dcdff8;
+  border-radius: 10px;
+}
+
+/* .social-icons:hover {
+  background-color: #0056b3;
+} */
+/***************************** Fotter Css End *****************/
+
+/*************************************** BODY HOME CSS End *********************** */
+
+
+
